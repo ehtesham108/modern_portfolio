@@ -1,5 +1,5 @@
 $primary-color: #fff;
-$primary-color:#777;
+$primary-color:#444;
 // Set Secondary color
 @function set-secondary-color($color1) {
     @if (lightness($color1) < 47) {
