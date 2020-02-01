@@ -85,9 +85,6 @@
         grid-template-columns: 1fr;
     }
 
-    .sm-heading {
-        margin: auto;
-    }
 
     // Projects Grid
     .projects {
@@ -98,10 +95,13 @@
 
 // Smartphones
 @include mediaSm {
-    main#home h1 {
-        margin-top: 10vh;
-    }
+    main {
+        padding: 2rem;
 
+        .lg-heading {
+            margin-top: 1rem;
+        }
+    }
     .projects {
         grid-template-columns: 1fr;
     }
